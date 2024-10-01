@@ -14,6 +14,6 @@
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
   "policy": {
-    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse><L7p:Base64ResponseBody stringValue=\"aGVsbG8gd29ybGQ=\"/>    </L7p:HardcodedResponse>    </wsp:All>\n</wsp:Policy>\n"
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse><L7p:Base64ResponseBody stringValue=\"aGVsbG8gdGVzdA==\"/>    </L7p:HardcodedResponse>    </wsp:All>\n</wsp:Policy>\n"
   }
 }
